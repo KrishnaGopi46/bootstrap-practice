@@ -1,0 +1,15 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.heading h2,p{
+    text-align:center;
+    color: blue;
+}
+.heading{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+.imgp img{
+	width:100%;
+}        
