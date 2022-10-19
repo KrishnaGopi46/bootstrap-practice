@@ -1,0 +1,14 @@
+.nav-item input{
+	background-color:#eb5d1e;
+	border:none;
+	padding:0.5rem;
+}
+.collapse{
+	margin-left:13rem;
+}
+.navbar-toggler{
+	margin-left:9rem
+}
+.navbar-nav li{
+	margin-left:1rem;
+}
