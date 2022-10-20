@@ -1,3 +1,6 @@
+body h1,h2,h3,h4,h5,h6{
+	color: #4e4039;
+}
 /*...............................header-nav........................................*/
 .nav-logo{
 	color: #7a6960 !important;
@@ -43,6 +46,9 @@
 	color: #a08f86;
 }
 @media(min-width:360px){
+	#ban img{
+		
+	}
 	#ban h1{
 		font-size:1.8rem;
 		font-weight:700;
@@ -76,3 +82,14 @@
 	}
 }
 /*...................................about us....................................*/
+.about{
+	padding:5rem 0;
+}
+#abo p{
+	font-size:1.1rem;
+	color: #a08f86;
+}
+#abo iconify-icon{
+	font-size:3rem;
+	color: #f39e7a;
+}
