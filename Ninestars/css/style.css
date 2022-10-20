@@ -1,14 +1,78 @@
+/*...............................header-nav........................................*/
+.nav-logo{
+	color: #7a6960 !important;
+}
+.active{
+	color:#eb5d1e !important;
+}
+.navbar-nav a:hover{
+	color:#eb5d1e !important;
+}
 .nav-item input{
 	background-color:#eb5d1e;
 	border:none;
+	font-size:1.1rem;
 	padding:0.5rem;
+	width:7rem;
 }
-.collapse{
-	margin-left:13rem;
+.nav-item input:hover{
+	background-color:#eb5d1e9c;
 }
-.navbar-toggler{
-	margin-left:9rem
+/*..............................banner section...............................*/
+.banner{
+    background-color: #fef8f5;
+	border-bottom: 2px solid #fcebe3;
 }
-.navbar-nav li{
-	margin-left:1rem;
+#ban input{
+	background-color:#eb5d1e;
+	border:none;
+	font-size:1.1rem;
+	padding:0.5rem;
+	width:10rem;
 }
+#ban input:hover{
+	background-color:#eb5d1e9c !important;
+}
+#ban h1{
+	font-size:1.8rem;
+	font-weight:700;
+	line-height:1.2;
+}
+#ban p{
+	font-size:1.1rem;
+	color: #a08f86;
+}
+@media(min-width:360px){
+	#ban h1{
+		font-size:1.8rem;
+		font-weight:700;
+		line-height:1.2;
+	}
+	#ban p{
+		font-size:1.1rem;
+		color: #a08f86;
+	}
+}
+@media(min-width:760px){
+	#ban h1{
+		font-size:1.7rem;
+		font-weight:700;
+		line-height:1.2;
+	}
+	#ban p{
+		font-size:1.5rem;
+		color: #a08f86;
+	}
+}
+@media(min-width:1020px){
+	#ban h1{
+		font-size:3.5rem;
+		font-weight:700;
+		line-height:1.2;
+	}
+	#ban p{
+		font-size:1.8rem;
+		color: #a08f86;
+	}
+}
+/*...................................about us....................................*/
