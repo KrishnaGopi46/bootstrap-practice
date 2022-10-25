@@ -93,3 +93,13 @@ body h1,h2,h3,h4,h5,h6{
 	font-size:3rem;
 	color: #f39e7a;
 }
+/*........................service section....................................*/
+.imig1{
+	border-radius:10px;
+}
+.service{
+	background-color:#fef8f5 !important;
+}
+#bg-icon{
+	color:#eb5d1e;
+}
