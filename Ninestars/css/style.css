@@ -225,6 +225,7 @@
 }
 #service .ser-car:hover{
 	border-bottom:4px solid #ef7f4d;
+	transform:translateY(-5px);
 }
 @media(min-width:360px){
 #service h2{
@@ -275,68 +276,107 @@
 	height:18rem;
 }
 }
-/*service media ends*/
-
-
-
-/*portfolio media ends*/
-
-#portfolio .port{
-	background-color:#fff;
+/*portfolio section start*/
+.portfolio{
+	padding-bottom:5%; 
 }
-
-/*portfolio media ends*/
-#portfolio h3{
+#port h3{
 	margin:7% 0 0 0;
 	color:#c2b7b1;
 	font-weight:600;
 }
-#portfolio h2{
-	margin:4% 0 0 0;
+#port h2{
+	margin:2% 0 0 0;
 	font-size:2rem;
 	line-height:1.4;
 	color:#4e4039;
 	font-weight:700;
 	position:relative;
 }
-#portfolio h2::after{
+#port h2::after{
 	content:"";
 	position:absolute;
 	display:block;
-	left:40%;
+	left:47%;
 	width:4rem;
 	height:1rem;
 	border-bottom:2px solid #eb5d1e;
 }
-@media(min-width:360px){
-#portfolio h2{
-	font-size:2.2rem;
+#port .active{
+	color:#eb5d1e;
 }
-#portfolio h2::after{
-	left:42%;
+.port-sec li:hover{
+	color:#eb5d1e;
 }
+.
+#port .port-body{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	text-align: center;
+    background: rgba(31, 53, 72, 0.6);
 }
-@media(min-width:760px){
-#portfolio h3{
+.port-row img{
+	border-radius:6%;
+}
+/*...........................question section..................................*/
+.question{
+	background-color:#fef8f5;
+	padding-bottom:5%;
+}
+.question-title h3{
+	margin:5% 0 0 0;
+	color:#c2b7b1;
+	font-weight:600;
+}
+.question-title h2{
+	margin:1% 0 0 0;
+	font-size:2rem;
+	line-height:1.1;
+	color:#4e4039;
 	font-weight:700;
+	position:relative;
 }
-#portfolio h2{
-	margin:0.6% 0 0 0;
-	font-size:2.1rem;
-}
-#portfolio h2::after{
-	left:45%;
-}
-}
-@media(min-width:1020px){
-#portfolio h3{
-	font-size:1.6rem;
-}
-#portfolio h2{
-	margin:0.6% 0 0 0;
-	font-size:2.1rem;
-}
-#portfolio h2::after{
+.question-title h2::after{
+	content:"";
+	position:absolute;
+	display:block;
 	left:47%;
+	width:4rem;
+	height:1rem;
+	border-bottom:2px solid #eb5d1e;
 }
+.question-button{
+	background-color:#fef8f5 !important;
+}
+.accordion-item button{
+	    color: #343a40;
+}
+.accordion-item button:hover{
+	    color: #c54811;
+}
+/*.............................question section...................................*/
+.team-title h3{
+	margin:5% 0 0 0;
+	color:#c2b7b1;
+	font-weight:600;
+}
+.team-title h2{
+	margin:1% 0 0 0;
+	font-size:2rem;
+	line-height:1.1;
+	color:#4e4039;
+	font-weight:700;
+	position:relative;
+}
+.team-title h2::after{
+	content:"";
+	position:absolute;
+	display:block;
+	left:47%;
+	width:4rem;
+	height:1rem;
+	border-bottom:2px solid #eb5d1e;
 }
