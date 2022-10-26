@@ -1,105 +1,342 @@
-body h1,h2,h3,h4,h5,h6{
-	color: #4e4039;
+/*header css starts*/
+#hed .active{
+	color: #eb5d1e;
 }
-/*...............................header-nav........................................*/
-.nav-logo{
-	color: #7a6960 !important;
+#hed .nav-link:hover{
+	color: #eb5d1e;
 }
-.active{
-	color:#eb5d1e !important;
+.get-started,.btn-primary{
+    color: #fff;
+    background-color: #eb5d1e !important;
+    border-color: #eb5d1e  !important;
 }
-.navbar-nav a:hover{
-	color:#eb5d1e !important;
+.navbar-brand{
+	color:#7a6960 !important;
 }
-.nav-item input{
-	background-color:#eb5d1e;
-	border:none;
-	font-size:1.1rem;
-	padding:0.5rem;
-	width:7rem;
-}
-.nav-item input:hover{
-	background-color:#eb5d1e9c;
-}
-/*..............................banner section...............................*/
+
+/*header css ends*/
+
+/*banner section media css*/
 .banner{
-    background-color: #fef8f5;
+	background:#fef8f5;
+}
+
+#caro{
+	width:100%;
+	height:120vh;
+	margin:15% 0 -6% 0;
 	border-bottom: 2px solid #fcebe3;
 }
-#ban input{
-	background-color:#eb5d1e;
-	border:none;
-	font-size:1.1rem;
-	padding:0.5rem;
-	width:10rem;
+#caro img{
+	width:100%;
 }
-#ban input:hover{
-	background-color:#eb5d1e9c !important;
-}
-#ban h1{
+#caro h1{
 	font-size:1.8rem;
 	font-weight:700;
 	line-height:1.2;
+	margin:0 0 4% 0;
+	color:#4e4039;
 }
-#ban p{
-	font-size:1.1rem;
-	color: #a08f86;
+#caro h2{
+	font-size:1rem;
+	font-weight:500;
+	line-height:1.2;
+	margin:0 0 5% 0;
+	color:#a08f86;
+}
+
+@media(min-width:360px){
+#caro{
+	height:120vh;
+}
+#caro h1{
+	font-size:1.7rem;
+	font-weight:700;
+	line-height:1.2;
+} 
+#caro h2{
+	font-size:1.2rem;
+	font-weight:400;
+	line-height:1.1;
+	margin:0 0 5% 0;
+}
+} 
+
+@media(min-width:760px){
+#caro{
+	height:120vh;
+	margin:8% 0 -6% 0;
+	padding:2%;
+}
+#caro h1{
+	font-size:1.7rem;
+	font-weight:700;
+	line-height:1.2;
+} 
+#caro h2{
+	font-size:1.4rem;
+	font-weight:400;
+	line-height:1.1;
+	margin:0 0 5% 0;
+	
+}
+}
+
+@media(min-width:1020px){
+#caro{
+	height:120vh;
+	margin:5% 0 -6% 0;
+	padding:2%;
+}
+#caro h1{
+	font-size:3rem;
+	font-weight:700;
+	line-height:1.2;
+}
+#caro h2{
+	font-size:1.6rem;
+	font-weight:400;
+	line-height:1.1;
+	margin:0 0 5% 0;
+	
+} 
+}
+/*banner media css ends*/
+
+
+/*about media starts*/
+
+#abt img{
+	padding:15% 8% 10% 8%;
+	overflow:hidden;
+}
+#abt h1{
+	font-size:2.1rem;
+	color:#4e4039;
+	font-weight:700;
+}
+#abt i{
+	font-size:2.5rem;
+	color:#f39e7a;
+}
+#abt h4{
+	font-size:1.2rem;
+	color: #7a6960;
+	font-weight:700;
+}
+#abt p{
+	font-size:0.9rem;
+	color:#5a6570;
 }
 @media(min-width:360px){
-	#ban img{
-		
-	}
-	#ban h1{
-		font-size:1.8rem;
-		font-weight:700;
-		line-height:1.2;
-	}
-	#ban p{
-		font-size:1.1rem;
-		color: #a08f86;
-	}
+#abt i{
+	font-size:3rem;
 }
-@media(min-width:760px){
-	#ban h1{
-		font-size:1.7rem;
-		font-weight:700;
-		line-height:1.2;
-	}
-	#ban p{
-		font-size:1.5rem;
-		color: #a08f86;
-	}
+#abt h1{
+	font-size:2.2rem;
+}
+#abt h4{
+	font-size:1.4rem;
+}
+#abt p{
+	font-size:1rem;
+}
+}
+@media(min-width:768px){
+#abt img{
+	padding:15% 15% 5% 15%;
+	overflow:hidden;
+}
+#abt i{
+	font-size:3rem;
+}
+#abt h4{
+	font-size:1.4rem;
+}
+#abt p{
+	font-size:1rem;
+}
 }
 @media(min-width:1020px){
-	#ban h1{
-		font-size:3.5rem;
-		font-weight:700;
-		line-height:1.2;
-	}
-	#ban p{
-		font-size:1.8rem;
-		color: #a08f86;
-	}
+#abt .abt-flex{
+	padding:8% 0 0 0;
 }
-/*...................................about us....................................*/
-.about{
-	padding:5rem 0;
+#abt img{
+	padding:10%;
+	overflow:hidden;
 }
-#abo p{
-	font-size:1.1rem;
-	color: #a08f86;
-}
-#abo iconify-icon{
+#abt i{
 	font-size:3rem;
-	color: #f39e7a;
 }
-/*........................service section....................................*/
-.imig1{
-	border-radius:10px;
+#abt h4{
+	font-size:1.2rem;
 }
-.service{
-	background-color:#fef8f5 !important;
+#abt p{
+	font-size:0.9rem;
 }
-#bg-icon{
-	color:#eb5d1e;
+}
+/*about media ends*/
+
+/*service media starts*/
+#service,.ser{
+	background-color:#fef8f5;
+}
+#service .card{
+	border:none;
+	padding:5%;
+}
+#service h3{
+	margin:7% 0 0 0;
+	color:#c2b7b1;
+	font-weight:600;
+}
+#service h2{
+	margin:4% 0 0 0;
+	font-size:2rem;
+	line-height:1.4;
+	color:#4e4039;
+	font-weight:700;
+	position:relative;
+}
+#service h2::after{
+	content:"";
+	position:absolute;
+	display:block;
+	left:40%;
+	width:4rem;
+	height:1rem;
+	border-bottom:2px solid #eb5d1e;
+}
+#service i{
+	font-size:2.7rem;
+	font-weight:500;
+	color:#ef7f4d; 
+	line-height:1;
+}
+#service h5{
+	font-size:1.2rem;
+	font-weight:600;
+}
+#service p{
+	line-height:1.5;
+}
+#service .ser-car{
+	border-radius:6%;
+}
+#service .ser-car:hover{
+	border-bottom:4px solid #ef7f4d;
+}
+@media(min-width:360px){
+#service h2{
+	font-size:2.2rem;
+}
+#service h2::after{
+	left:42%;
+}
+#service h5{
+	font-size:1.2rem;
+	font-weight:600;
+}
+#service h5{
+	font-size:1.2rem;
+	font-weight:600;
+}
+#service .ser-car{
+	padding:10% 0 10% 0;
+	width:100%;
+	height:18rem;
+}
+}
+@media(min-width:760px){
+#service h3{
+	font-weight:700;
+}
+#service h2{
+	margin:0.6% 0 0 0;
+	font-size:2.1rem;
+}
+#service h2::after{
+	left:45%;
+}
+}
+@media(min-width:1020px){
+#service h3{
+	font-size:1.6rem;
+}
+#service h2{
+	margin:0.6% 0 0 0;
+	font-size:2.1rem;
+}
+#service h2::after{
+	left:47%;
+}
+#service .ser-car{
+	width:100%;
+	height:18rem;
+}
+}
+/*service media ends*/
+
+
+
+/*portfolio media ends*/
+
+#portfolio .port{
+	background-color:#fff;
+}
+
+/*portfolio media ends*/
+#portfolio h3{
+	margin:7% 0 0 0;
+	color:#c2b7b1;
+	font-weight:600;
+}
+#portfolio h2{
+	margin:4% 0 0 0;
+	font-size:2rem;
+	line-height:1.4;
+	color:#4e4039;
+	font-weight:700;
+	position:relative;
+}
+#portfolio h2::after{
+	content:"";
+	position:absolute;
+	display:block;
+	left:40%;
+	width:4rem;
+	height:1rem;
+	border-bottom:2px solid #eb5d1e;
+}
+@media(min-width:360px){
+#portfolio h2{
+	font-size:2.2rem;
+}
+#portfolio h2::after{
+	left:42%;
+}
+}
+@media(min-width:760px){
+#portfolio h3{
+	font-weight:700;
+}
+#portfolio h2{
+	margin:0.6% 0 0 0;
+	font-size:2.1rem;
+}
+#portfolio h2::after{
+	left:45%;
+}
+}
+@media(min-width:1020px){
+#portfolio h3{
+	font-size:1.6rem;
+}
+#portfolio h2{
+	margin:0.6% 0 0 0;
+	font-size:2.1rem;
+}
+#portfolio h2::after{
+	left:47%;
+}
 }
