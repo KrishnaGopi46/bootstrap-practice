@@ -510,3 +510,111 @@
 	font-weight:500;
     color: #7a6960;
 }
+#contact .form-button button{
+	color:#fff;
+	padding:10px 24px;
+	border-radius:4px;
+	background-color:#eb5d1e;
+	border:0;
+}
+#contact .contact-details{
+	margin-top:4rem;
+	padding:30px;
+	border-bottom:2px solid #eb5d1e;
+	border-top:2px solid #eb5d1e;
+}
+/*.....................................news letter section...............................*/
+.news{
+    background-color: #fef8f5;
+}
+.news h4{
+	font-size: 2rem;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    color: #4e4039;
+}
+.news p{
+	font-size:1rem;
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-weight: 500;
+}
+.news form {
+	margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    text-align: left;
+}
+.news form input[type=email]{
+	border:0;
+	width:100%;
+}
+input:focus{
+	outline:none;
+}
+.news form input[type=submit]{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #eb5d1e;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 4px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+.news form input[type=submit]:hover{
+	background:#c54811;
+}
+/*..........................footer........................................*/
+.footer a{
+	color: #5c5c5c;
+	text-decoration:none;
+}
+.footer a:hover{
+	color: #eb5d1e;
+}
+.footer li i{
+	color: #eb5d1e;
+}
+.footer li{
+	margin-top:0.8rem;
+}
+.footer ul{
+	padding:0;
+}
+.footer .social-links i{
+	background-color:#eb5d1e;
+	color:#fff;
+	width:34px;
+	height:34px;
+	border-radius:50%;
+	display:inline-flex;
+	justify-content:center;
+	align-items:center;
+} 
+.footer .social-links i:hover{
+	background-color:#ef7f4d;
+}
+/*..........................................footer2..............................*/
+.footersec{
+    background-color: #fef8f5 !important;
+}
+.copyright{
+	text-align:center;
+}
+.credits{
+	text-align:center;
+}
+.credits span{
+	color:#eb5d1e;
+}
