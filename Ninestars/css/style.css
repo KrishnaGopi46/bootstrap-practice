@@ -307,7 +307,6 @@
 .port-sec li:hover{
 	color:#eb5d1e;
 }
-.
 #port .port-body{
 	position:absolute;
 	top:0;
@@ -423,6 +422,7 @@
 }
 #team .member{
 	position:relative;
+	overflow:hidden;
 }
 #team .member-info{
 	position:absolute;
@@ -432,6 +432,9 @@
 	color:#fff;
 	opacity:0;
 	height:100%;
+	left:10px;
+	right:10px;
+	width:auto;
 }
 #team .member-info-content{
 	position:absolute;
@@ -447,6 +450,8 @@
 	top:0;
 	bottom:0;
 	opacity:0;
+	left:10px;
+	right:10px;
 }
 #team .member-social i{
 	display:block;
@@ -464,7 +469,7 @@
     opacity:1;
 }
 .member img{
-	padding:0;
+	padding:;
 }
 
 
