@@ -421,6 +421,54 @@
 	height:1rem;
 	border-bottom:2px solid #eb5d1e;
 }
+#team .member{
+	position:relative;
+}
+#team .member-info{
+	position:absolute;
+	bottom:0;
+	padding:0 0 1.5rem 1rem;
+	text-align:center;
+	color:#fff;
+	opacity:0;
+	height:100%;
+}
+#team .member-info-content{
+	position:absolute;
+	bottom:20px;
+	left:30%;
+}
+#team .member-social{
+	color:#fff;
+	width:20%;
+	text-align:center;
+	background:rgba(78,64,57,0.6);
+	position:absolute;
+	top:0;
+	bottom:0;
+	opacity:0;
+}
+#team .member-social i{
+	display:block;
+	font-size:1.1rem;
+	margin-top:0.8rem;
+}
+.member-social i:hover{
+	color: #eb5d1e;
+}
+#team .member:hover .member-info{
+    opacity:1;
+	background: linear-gradient(0deg, rgba(78, 64, 57, 0.95) 0%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
+}
+#team .member:hover .member-social{
+    opacity:1;
+}
+.member img{
+	padding:0;
+}
+
+
+
 /*..................clients section.......................*/
 .client{
 	background-color:#fef8f5;
