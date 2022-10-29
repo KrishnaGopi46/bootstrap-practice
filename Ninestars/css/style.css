@@ -307,17 +307,51 @@
 .port-sec li:hover{
 	color:#eb5d1e;
 }
+.port-body i{
+	width:34px;
+	height:34px;
+	border-radius:44px;
+	text-align:center;
+	justify-content:center;
+	display:inline-flex;
+	align-items:center;
+	color: #eb5d1e;
+	font-size:1.1rem;
+	background-color:#fff;;
+}
+.port-body i:hover{
+	background-color: #eb5d1e;
+	color:#fff;
+}
+.port-body h5{
+	color:#fff;
+	padding-top:2rem;
+}
+.port-body p{
+	color:#fff;
+	padding-top:1rem;
+}
+.port-content{
+	position:relative;
+	overflow:hidden;
+}
 #port .port-body{
 	position:absolute;
 	top:0;
-	left:0;
-	right:0;
+	left:12px;
+	right:12px;
 	bottom:0;
+	width:auto;
 	text-align: center;
     background: rgba(31, 53, 72, 0.6);
+	padding-top:6rem;
+	opacity:0;
+}
+#port .port-content:hover .port-body{
+	opacity:1;
 }
 .port-row img{
-	border-radius:6%;
+	border-radius:;
 }
 /*...........................question section..................................*/
 .question{
