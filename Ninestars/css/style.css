@@ -346,9 +346,11 @@
     background: rgba(31, 53, 72, 0.6);
 	padding-top:6rem;
 	opacity:0;
+	transition:1s;
 }
 #port .port-content:hover .port-body{
 	opacity:1;
+	
 }
 .port-row img{
 	border-radius:;
@@ -469,6 +471,7 @@
 	left:10px;
 	right:10px;
 	width:auto;
+	transition:1s;
 }
 #team .member-info-content{
 	position:absolute;
@@ -486,6 +489,7 @@
 	opacity:0;
 	left:10px;
 	right:10px;
+	transition:1s;
 }
 #team .member-social i{
 	display:block;
