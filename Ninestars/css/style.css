@@ -614,6 +614,10 @@
 	border-bottom:2px solid #eb5d1e;
 	border-top:2px solid #eb5d1e;
 }
+#contact input{
+	box-shadow:none;
+	background-color:none;
+}
 /*.....................................news letter section...............................*/
 .news{
     background-color: #fef8f5;
@@ -633,10 +637,10 @@
     font-weight: 500;
 }
 .news form {
+	position: relative;
 	margin-top: 30px;
     background: #fff;
     padding: 6px 10px;
-    position: relative;
     border-radius: 4px;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
     text-align: left;
@@ -708,4 +712,12 @@ input:focus{
 }
 .credits span{
 	color:#eb5d1e;
+}
+@media(min-width:992px){
+	#bott .copyright{
+	float:left;
+	}
+	#bott .credits{
+	float:right;
+	}
 }
