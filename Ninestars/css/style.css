@@ -17,6 +17,14 @@
 /*header css ends*/
 
 /*banner section media css*/
+#caro .banner-img{
+	animation:move infinite;
+	animation-duration:4s;
+}
+@key frames move{
+	from{top:0px;}
+	to{bottom:10px;}
+}
 .banner{
 	background:#fef8f5;
 }
@@ -29,6 +37,7 @@
 }
 #caro img{
 	width:100%;
+	
 }
 #caro h1{
 	font-size:1.8rem;
@@ -462,15 +471,15 @@
 }
 #team .member-info{
 	position:absolute;
-	bottom:0;
-	padding:0 0 1.5rem 1rem;
+	bottom:-22%;
+	
 	text-align:center;
 	color:#fff;
 	opacity:0;
 	height:100%;
-	left:10px;
-	right:10px;
-	width:auto;
+	left:;
+	right:;
+	width:;
 	transition:1s;
 }
 #team .member-info-content{
@@ -487,8 +496,7 @@
 	top:0;
 	bottom:0;
 	opacity:0;
-	left:10px;
-	right:10px;
+	left:-70px;
 	transition:1s;
 }
 #team .member-social i{
@@ -502,12 +510,14 @@
 #team .member:hover .member-info{
     opacity:1;
 	background: linear-gradient(0deg, rgba(78, 64, 57, 0.95) 0%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
+	bottom:0;
 }
 #team .member:hover .member-social{
     opacity:1;
+	left:0px;
 }
 .member img{
-	padding:;
+	padding:0;
 }
 
 
